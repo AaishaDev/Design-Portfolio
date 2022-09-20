@@ -1,0 +1,560 @@
+@media only screen and (max-width: 1140px) {
+   .hero{
+    background: linear-gradient(90deg,  white 70%,  #1B1B87 30%);
+    /* color: white; */
+   
+   }
+   .heroSection{
+    height: auto;
+   }
+   .hs-right>img{
+    
+    display: none;
+   }
+   
+   .gradientbg img{
+    height: 270rem;
+   }
+   .workedWith{
+    background-image: url();
+    background-color: #1B1B87;
+   }
+   .footer-bg{
+    /* background: linear-gradient(135deg,  white 30%,#00113B 20%, #00113B  50%); */
+    background: #00113B;
+/* transform: matrix(-1, 0, 0, 1, 0, 0); */
+    
+   }
+   .footer-bg>img{
+      display: none;
+   }
+  }
+
+  @media only screen and (max-width: 1090px){
+    
+    .w-card{
+      max-width: 370px;
+      margin: auto;
+     
+    }
+
+    .owl-carousel1 .owl-stage-outer{
+      height: 617px;
+    }
+    .contact-details>img{
+      display: none;
+    }
+    .ContactSection{
+      width: 80%;
+      padding: 6rem 0;
+      margin: auto;
+      flex-direction: column;
+      gap: 3rem;
+    }
+    .ContactSection .form{
+      position: unset;
+    }
+    .social-media{
+      margin-top: 5rem;
+    }
+    .footer-details .heading
+    {
+    font-size: 49px;
+    }
+  }
+
+
+  @media only screen and (max-width: 910px){
+    .navbar{
+      padding: 2rem;
+    }
+
+    .heroSection{
+      padding: 7rem 5rem;
+    }
+    .h-heading{
+      font-size: 3.9rem;
+    }
+    .work{
+      padding: 7rem 0 7rem 5rem ;
+    }
+    .workedWith{
+      padding: 7rem 5rem;
+    }
+    .products{
+      padding: 7rem 5rem;
+    }
+    .contact{
+      margin: 7rem 5rem;
+    }
+    .ContactSection{
+      padding: 4rem 1rem;
+    }
+    .ContactSection .form{
+      width: 100%;
+    }
+    .footer-details .heading
+    {
+    font-size: 39px;
+    }
+    .footer-details .sm-heading
+    {
+    font-size: 22px;
+    }
+  }
+
+  @media only screen and (max-width: 768px){
+    .heroSection {
+      padding: 7rem 2.5rem;
+  }
+    .h-heading {
+      font-size: 2.5rem;
+      line-height: 60px;
+  }
+
+.navbar .menu{
+  display: none;
+}
+  .work {
+    padding: 7rem 0px 7rem 2.5rem;
+}
+.work .upper-section{
+  background-image: url();
+}
+.w-left .sm-heading{
+  font-size: 1.7rem;
+}
+.w-left .big-heading {
+  font-size: 4rem;
+  line-height: inherit;
+    margin-top: 2rem;
+}
+.work .contact-me{
+  padding: 1rem 3rem 1rem 3rem;
+  margin-top: 4rem;
+  font-size: smaller;
+}
+.workedWith{
+  padding: 7rem 2rem;
+}
+
+.workedWith .heading{
+
+  font-size: 3.9rem;
+}
+.gradientbg img{
+  height: 290rem;
+}
+.products{
+  padding: 7rem 2.5rem;
+}
+.p-heading{
+  font-size: 3rem;
+}
+.tabs{
+  gap: 2rem;
+}
+
+.cards{
+  width: 95%;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+
+.slider-card{
+  width: 80%;
+  max-width: 470px;
+    margin: 4rem auto auto auto;
+}
+.slider-card p {
+  
+  font-size: 1rem !important;
+  line-height: 28px !important;
+  /* display: flex; */
+    /* justify-content: center; */
+}
+
+.avatar-name{
+  font-size: 12px!important;
+}
+.t-bigheading {
+  
+  font-weight: 600;
+  font-size: 41px;
+  line-height: 53px;}
+
+  .t-heading{
+    font-size: 1rem;
+    line-height: 0;
+  }
+.contact {
+  margin: 7rem 3rem;
+  padding: 2.5rem 0;
+}
+.contact .heading{
+  display: none;
+}
+.ContactSection {
+  width: 90%;
+}
+
+
+.contact .sm-heading {
+ 
+  font-size: 16px;
+  line-height: 26px;
+  margin-top: 18px;
+}
+.details {
+ 
+  gap: 1rem;
+  margin-top: 3rem;
+}
+.input-field, .text-field {
+  padding: 14px;
+}
+input, textarea{
+  font-size: 10px;
+}
+.submit-button{
+  padding: 1rem;
+  font-size: 14px;
+}
+.sm-icon img{
+  width: 14px;
+  
+}
+
+.sm-icon>span {
+  font-size: 12px;
+}
+.footer{
+  font-size: 10px;
+}
+.footer-details{
+  padding: 0 3rem;
+}
+.footer .logo{
+    transform: scale(0.7);
+}
+.footer-details .heading {
+  font-size: 18px;
+  line-height: 40px;
+}
+.footer-details .sm-heading {
+  font-size: 14px;
+  margin-top: 1rem;
+  line-height: normal;
+}
+.Menus li{
+  font-size: 14px;
+    line-height: 22px;
+}
+.contact-stack1{
+  display: none;
+}
+.contact-stack2{
+  display: none;
+}
+  }
+
+  @media only screen and (max-width: 500px){
+    .navbar{
+      padding: 2rem 1.5rem;
+    }
+    .name span {
+      width: 32px;
+    }
+    .name p{
+      font-size: 0.8rem
+    }
+    .h-heading {
+      font-size: 1.7rem;
+      line-height: 3.2rem;
+  }
+  .w-left .sm-heading {
+    font-size: 1.3rem;
+    line-height: 2.4rem;
+}
+
+.w-left .big-heading {
+  font-size: 3rem;
+}
+.w-card{
+  padding: 2rem 1rem;
+  display: none;
+}
+.wc-img{
+  transform: scale(0.7)
+}
+.wc-title{
+  font-size: 1rem;
+}
+.wc-details{
+  font-size: 0.8rem;
+}
+.lower-section .owl-item.active.center .w-card {
+  display: block;
+  display: flex;
+    padding: 2rem 1rem;
+    width: 250px
+}
+.workedWith .heading{
+
+  font-size: 2.8rem;
+}
+.workedWith .sm-heading{
+  font-size: 0.8rem;
+}
+.slider-card{
+  padding: 1.5rem;
+}
+.slider-card p{
+  
+  font-size: 0.6rem !important;
+  line-height: 22px !important;
+}
+.slider-person{
+  gap: 1rem;
+}
+.slider-person img{
+
+width: 40px !important;
+height: 40px !important;
+}
+.gradientbg img{
+  height: 240rem;
+}
+.tabs{
+  font-size: 12px;
+    gap: 0.8rem;
+}
+
+.contact {
+  margin: 7rem 2rem;
+}
+.contact .sm-heading {
+ 
+  font-size: 12px;
+  line-height: 22px;
+  margin-top: 14px;
+}
+.details {
+ font-size: 10px;
+  gap: 1rem;
+  margin-top: 3rem;
+}
+.details img{
+  width: 14px;
+}
+.input-field, .text-field {
+  padding: 10px;
+}
+input, textarea{
+  font-size: 8px;
+}
+.input-field img{
+  display: none;
+}
+.submit-button{
+  padding: 0.7rem;
+  font-size: 12px;
+}
+.sm-icon img{
+  width: 10px;
+  
+}
+
+.sm-icon>span {
+  font-size: 10px;
+}
+.footer .logo{
+  transform: scale(0.5);
+}
+.footer-details{
+  margin-top: 0;
+  padding: 0 2rem;
+  justify-content: center;
+}
+.footer-details .heading {
+font-size: 14px;
+line-height: 30px;
+}
+.footer-details .sm-heading {
+font-size: 12px;
+margin-top: 1rem;
+line-height: normal;
+}
+.Menus li{
+font-size: 10px;
+  line-height: 18px;
+}
+.footer hr{
+  margin: 3rem 2rem 0 2rem;
+}
+    
+.bottom-bar{
+  padding: 1.7rem 2rem 1.7rem 2rem;
+}
+
+
+  }
+  
+@media only screen and (min-width: 1920px) {
+  .hero .logo{
+    transform: scale(1.5);
+    margin: 6rem;
+  }
+  .menu{
+    transform: scale(1.5);
+    margin: 4rem;
+  }
+  .heroSection {
+    height: 100vh;
+    max-width: 1500px;
+    margin: auto;
+    padding: 19rem 7rem 0 0;
+  }
+  .hero3d{
+    transform: scale(1.05);
+    top: -6.4rem;
+  }
+  .scroll button{
+    transform: scale(2);
+    margin: 2rem;
+  }
+   .scroll p{
+    font-size: 20px;
+  }
+  .work{
+    padding: 7rem 0;
+  }
+
+  .work .upper-section{
+    display: block;
+  }
+  .w-left{
+    max-width: 1500px;
+    margin: 4rem auto;
+  }
+  .name{
+    gap: 8px;
+  }
+  .name span{
+    border-bottom: 3.5px solid var(--blue);
+  }
+  .name p{
+    font-size: 1.7rem;
+  }
+  .work .contact-me {
+    padding: 2.3rem 4rem 2.3rem 4rem;
+    font-size: 26px;
+  }
+  
+  .owl-carousel1 .owl-stage-outer{
+    overflow-x: clip !important ;
+  }
+  .w-card{
+    gap: 1.2rem;
+    padding: 70px 50px;
+  }
+  .wc-img{
+    transform: scale(1.5);
+    margin: 6rem 0;
+  }
+  .wc-title{
+    font-size: 2.1rem;
+  }
+  .wc-details{
+    font-size: 1.4rem;
+  }
+  .c-button{
+    padding: 2rem 3rem;
+    font-size: 25px;
+  }
+  .workedWith{
+    height: 100vh;
+    background-position: 1% 36%;
+   
+  }
+  .worked-with-details{
+    max-width: 1550px;
+    margin:6rem auto;
+
+  }
+  .worked-with-details .name>span{
+    border-bottom: 3.5px solid var(--blue);
+
+  }
+  .workedWith .scroll{
+    padding-bottom: 5rem;
+  }
+  .workedWith .scroll>button{
+    transform: scale(1.8);
+  }
+  .workedWith .scroll>p{
+    font-size: 22px;
+  }
+  .tabs{
+    font-size: 24px;
+  }
+  card :nth-child(2){
+    font-size: 42px;
+  }
+  .card :nth-child(3){
+    font-size: 24px;
+  }
+  .testimonials{
+    height: 80vh;
+    padding-top: 7rem;
+  }
+  .t-heading {
+    font-size: 1.7rem;
+  }
+  .t-bigheading{
+    font-size: 90px;
+    line-height: 96px;
+    letter-spacing: 2.5px;
+  }
+  .contact{
+    width: 82%;
+    margin: 4rem auto 0 auto;
+    padding: 5%;
+
+  }
+  .ContactSection .left{
+    transform: scale(1.3);
+    padding-left: 6rem;
+  }
+  .ContactSection .right>form{
+    width: 95%;
+  }
+  
+  .footer-details{
+    width: 80%;
+    margin: auto;
+  }
+  .footer .logo{
+    transform: scale(2);
+    margin-top: 90px;
+  }
+  .footer .heading{
+    margin-top: 90px;
+  }
+  .footer .Menus{
+    margin-top: 90px;
+  }
+  .gradientbg>img{
+    height: 320rem;
+  }
+  
+}
+
+@media only screen and (min-width: 1430px){
+  .gradientbg>img{
+    height: 220rem;
+  }
+}
