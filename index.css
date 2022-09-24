@@ -537,13 +537,16 @@ color: #111029;
  position: relative;
  overflow: hidden;
 }
-.contact>img{
-  width: 100%;
-    height: auto;
-    position: absolute;
-    z-index: 1;
+.contact-image{
+  position: absolute;
+ overflow: hidden;
+
+}
+.contact-image>img{
+  z-index: 1;
+    position: relative;
+    width: 100%;
     top: -13rem;
-    overflow: hidden;
 }
 .contact{
   margin: 7rem;
@@ -599,6 +602,7 @@ color: #111029;
 .ContactSection .right{
   flex: 1;
   position: relative;
+  z-index: 2;
 }
 
 .form{
@@ -638,6 +642,7 @@ border-radius: 11px;
   border: none;
   border-radius: 20px;
   text-align: center;
+  cursor: pointer;
       gap: 16px;
     width: 13rem;
 }
@@ -772,4 +777,5 @@ margin: 3rem 7rem 0 7rem;
     color: white;
     border-radius: 5px;
     display: none;
+    font-size: 12px;
 }

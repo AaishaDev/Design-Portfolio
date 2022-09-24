@@ -60,7 +60,8 @@ $(document).ready(function () {
 
 document.getElementById("submit_form").addEventListener("click", () => {
   const form_status = localStorage.form;
-  const popup = document.getElementById('popup')
+  const popup = document.getElementById('popup');
+  // const publickey = ABEXiTL6uCXGQ2PsF;
 
   let user = {
     name: document.getElementById("name").value,
@@ -77,6 +78,17 @@ document.getElementById("submit_form").addEventListener("click", () => {
       .then(
         function (response) {
           console.log("SUCCESS!", response.status, response.text);
+          console.log("second line success")
+          popup.style.display='block';
+          popup.innerHTML = "Sent";
+       
+        
+        setTimeout(() => {
+          popup.style.display='none';
+          popup.innerHTML = "";
+         
+          
+        }, 5000);
         },
         function (error) {
           console.log("FAILED...", error);
@@ -84,16 +96,32 @@ document.getElementById("submit_form").addEventListener("click", () => {
       );
     } 
     else {
-      console.log("aready sent")
+      console.log(" you have aready sent ")
+      
+        popup.style.display='block';
+        popup.innerHTML = "Sent Already";
+     
+      
       setTimeout(() => {
-        popup.style.display='block'
-        popup.innerHTML = "Sent Already"
+        popup.style.display='none';
+        popup.innerHTML = "";
+       
         
-      }, 1);
+      }, 5000);
     }
   }
   else{
     console.log("atleast enter name And email")
+    popup.style.display='block';
+    popup.innerHTML = "Atleast enter name And email";
+ 
+  
+  setTimeout(() => {
+    popup.style.display='none';
+    popup.innerHTML = "";
+   
+    
+  }, 5000);
   }
 });
 
