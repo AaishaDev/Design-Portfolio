@@ -20,7 +20,7 @@
     <title>Shivrani's Portfolio</title>
   </head>
   <body>
-    <div class="hero">
+    <div id="top" class="hero">
       <div class="navbar">
         <a class="logo">
           <img src="./images/Logo.svg" alt="" />
@@ -28,11 +28,11 @@
           <span>.</span>
       </a>
         <div class="menu">
-          <a href="" class="icon">
+          <a href="www.dribble.com" target="_blank" class="icon">
             <img src="./images/dribbleIcon.png" alt="" />
             <p>Dribble</p>
           </a>
-          <a class="icon">
+          <a href="https://www.behance.net/shivranikumari" target="_blank" class="icon">
             <img src="./images/behanceIcon.png" alt="" />
             <p>Behance</p>
           </a>
@@ -51,7 +51,7 @@
             Designer.
           </div>
           <div class="scroll">
-            <button><img src="./images/scrollicon.svg" alt="" /></button>
+            <a href="#work" ><img src="./images/scrollicon.svg" alt="" /></a>
             <p>Scroll Down</p>
           </div>
         </div>
@@ -60,7 +60,7 @@
         </div>
       </div>
     </div>
-    <div class="work">
+    <div  id="work" class="work">
       <!-- <div class="bg">
             <img src="./images/work3d.png" alt="">
         </div> -->
@@ -79,7 +79,7 @@
             Think. Make. <br />
             Solve.
           </div>
-          <button class="contact-me">Contact Me</button>
+          <a href="#contact"> <button class="contact-me">Contact Me</button></a>
         </div>
       </div>
       
@@ -155,7 +155,7 @@
           ideas with leading UI/UX Designers.
         </div>
         <div class="scroll">
-          <button><img src="./images/scrollicon.svg" alt="" /></button>
+          <a href="#products"> <button><img src="./images/scrollicon.svg" alt="" /></button></a>
           <p>Scroll Down</p>
         </div>
       </div>
@@ -173,32 +173,32 @@
             Look at My <br />
             Products.
           </div>
-          <div class="Cardsection">
+          <div id="products" class="Cardsection">
             <div class="tabs">
               <div id="1">Website</div>
               <div id="2">Illustration</div>
               <div id="3">Mobile</div>
             </div>
             <div id="website-cards" class="cards">
-              <a href="" class="card">
+              <a href="https://www.behance.net/gallery/148916501/Gotrah-Website-Design" class="card">
                 <img src="./images/product1.svg" alt="" />
                 <p>Gotrah</p>
                 <p>Website Design</p>
               </a>
-              <a href="" class="card">
+              <a href="https://www.behance.net/gallery/145632143/Salon-Booking-Website" class="card">
                 <img src="./images/product2.svg" alt="" />
-                <h2>Gotrah</h2>
-                <p>Website Design</p>
+                <h2>Velnes</h2>
+                <p>Salon Booking Website</p>
               </a>
-              <a href="" class="card">
+              <a href="https://www.behance.net/gallery/139822697/Website-Redesign" class="card">
                 <img src="./images/product3.svg" alt="" />
-                <p>Gotrah</p>
-                <p>Website Design</p>
+                <p>BornStein Media</p>
+                <p>Website Redesign</p>
               </a>
               <a href="" class="card">
                 <img src="./images/product4.svg" alt="" />
-                <p>Gotrah</p>
-                <p>Website Design</p>
+                <p>Flex Living</p>
+                <p>Real estate Property Booking Website</p>
               </a>
             </div>
             <div id="illustration-cards" class="illustration-card">
@@ -267,10 +267,10 @@
       </div>
       
     
-     <div class="contact-details">
-      <img src="./images/contactillustration.png" alt="" />
-
+     <div  class="contact-details">
+      
       <div class="contact">
+        <img class=".contact-details-img" src="./images/contactillustration.png" alt="" />
 
        
         <div class="ContactSection">
@@ -306,8 +306,10 @@
               </div>
             </div>
           </div>
-          <div class="right">
+          <div id="contact" class="right">
+           
             <div class="form">
+              <p id="popup"></p>
               <div class="input-field">
                 <input type="text" placeholder="Name" id="name" required/>
                 <img src="./images/profile.svg" alt="" />
@@ -392,7 +394,7 @@
       <hr />
       <div class="bottom-bar">
         <p>© 2020, All Rights Reserved</p>
-        <p>Back to top</p>
+        <a href="#top"><p>Back to top</p></a>
       </div>
 
     <script src="js/jquery.min.js"></script>

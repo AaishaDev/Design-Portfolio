@@ -128,7 +128,7 @@ button{
     display: flex;
     align-items: center;
 }
-.hs-left .scroll button{
+.hs-left .scroll a{
   border-radius: 100%;
   background-color: white;
   width: 68px;
@@ -537,7 +537,7 @@ color: #111029;
  position: relative;
  overflow: hidden;
 }
-.contact-details>img{
+.contact>img{
   width: 100%;
     height: auto;
     position: absolute;
@@ -549,8 +549,8 @@ color: #111029;
   margin: 7rem;
   background-color: white;
   border-radius: 48px;
-  position: relative;
-  z-index: 0;
+  /* position: relative; */
+  z-index: 2;
   /* overflow: hidden; */
 }
 .ContactSection{
@@ -760,15 +760,16 @@ margin: 3rem 7rem 0 7rem;
   justify-content: space-between;
   padding: 1.7rem 7rem 1.7rem 7rem;
 }
-#owl-demo{
-  /* display: block; */
-  padding: 7rem;
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
+.bottom-bar a{
+  color: white;
 }
-
-.slide {
-  margin-bottom: 30px;
-  position: relative;
+#popup{
+  text-align: center;
+    width: 81%;
+    background: #a6c81e;
+    margin: auto;
+    padding: 9px;
+    color: white;
+    border-radius: 5px;
+    display: none;
 }

@@ -60,6 +60,7 @@ $(document).ready(function () {
 
 document.getElementById("submit_form").addEventListener("click", () => {
   const form_status = localStorage.form;
+  const popup = document.getElementById('popup')
 
   let user = {
     name: document.getElementById("name").value,
@@ -83,7 +84,12 @@ document.getElementById("submit_form").addEventListener("click", () => {
       );
     } 
     else {
-      console.log("you have already submitted");
+      console.log("aready sent")
+      setTimeout(() => {
+        popup.style.display='block'
+        popup.innerHTML = "Sent Already"
+        
+      }, 1);
     }
   }
   else{
