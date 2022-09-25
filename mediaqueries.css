@@ -154,7 +154,13 @@
 .tabs{
   gap: 2rem;
 }
-
+.card :nth-child(2) {
+  font-size: 1.5rem;
+}
+.card :nth-child(3) {
+  font-size: 14px;
+  line-height: 0%;
+}
 
 
 
@@ -344,6 +350,9 @@ height: 40px !important;
   line-height: 22px;
   margin-top: 14px;
 }
+.ContactSection{
+  padding: 4rem 1rem 0 1rem;
+}
 .details {
  font-size: 10px;
   gap: 1rem;
@@ -364,6 +373,9 @@ input, textarea{
 .submit-button{
   padding: 0.7rem;
   font-size: 12px;
+}
+.social-media{
+  display: none;
 }
 .sm-icon img{
   width: 10px;

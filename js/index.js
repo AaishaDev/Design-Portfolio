@@ -136,9 +136,17 @@ document.getElementById('1').addEventListener('click', ()=>{
   document.getElementById('2').style.borderBottom='none';
   document.getElementById('3').style.borderBottom='none'
   console.log("website cards")
-  webCard.style.display='grid';
+  if (window.matchMedia("(max-width: 550px)").matches) {
+    webCard.style.display='flex';
   mobCard.style.display='none';
   illustrationCard.style.display='none';
+  } else {
+    webCard.style.display='grid';
+  mobCard.style.display='none';
+  illustrationCard.style.display='none';
+    
+  }
+  
   
 })
 document.getElementById('2').addEventListener('click', ()=>{
