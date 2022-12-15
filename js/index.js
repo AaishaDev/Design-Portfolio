@@ -72,7 +72,7 @@ document.getElementById("submit_form").addEventListener("click", () => {
 
   if (user.name && user.email) {
     if (form_status != "Submitted") {
-      localStorage.setItem("form", "Submitted");
+      // localStorage.setItem("form", "Submitted");
       console.log("send mail executed");
       emailjs.send("service_yoqg1oe", "template_b4eexzl", user)
       .then(
@@ -81,6 +81,7 @@ document.getElementById("submit_form").addEventListener("click", () => {
           console.log("second line success")
           popup.style.display='block';
           popup.innerHTML = "Sent";
+          localStorage.setItem("form", "Submitted");
        
         
         setTimeout(() => {

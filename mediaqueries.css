@@ -143,7 +143,7 @@
   font-size: 3.9rem;
 }
 .gradientbg img{
-  height: 240rem;
+  height: 220rem;
 }
 .products{
   padding: 7rem 2.5rem;
@@ -385,9 +385,7 @@ input, textarea{
 .sm-icon>span {
   font-size: 10px;
 }
-.footer-bg{
-  height: 100vh;
-}
+
 .footer .logo{
   transform: scale(0.5);
 }
